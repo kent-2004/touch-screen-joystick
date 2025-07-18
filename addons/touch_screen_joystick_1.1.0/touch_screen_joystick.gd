@@ -85,7 +85,6 @@ signal on_drag(factor : float)
 var knob_position : Vector2
 var is_pressing : bool
 var event_index := -1
-var t_knob : Tween
 
 
 func _draw() -> void:
